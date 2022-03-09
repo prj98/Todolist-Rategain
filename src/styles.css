@@ -1,0 +1,194 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.app {
+  padding: 20px;
+  background-color: #fff;
+  position: relative;
+}
+
+.app-dark {
+  background-color: #2b2d42;
+}
+
+.theme-selector {
+  cursor: pointer;
+  font-size: 18px;
+  padding: 2px 5px;
+  border-radius: 10px;
+  position: absolute;
+  right: 100px;
+  top: 20px;
+}
+
+.theme-selector-dark {
+  border: 2px solid #fff;
+  background-color: #333;
+  color: #eee;
+}
+
+.heading-primary {
+  color: #9a031e;
+  padding: 20px;
+  text-align: center;
+  font-size: 3.5rem;
+  text-shadow: 2px 2px 2px #1a1815;
+}
+
+.heading-primary-dark {
+  color: #d62023;
+  font-size: 3.5rem;
+  text-shadow: 2px 2px 3px rgb(224, 218, 218);
+}
+
+.container-list {
+  display: grid;
+  grid-template-columns: 47.5% 47.5%;
+  justify-items: center;
+  column-gap: 6%;
+}
+
+.container-list-todo,
+.container-list-completed {
+  max-width: 80%;
+  height: fit-content;
+  border: 4px solid #9a031e;
+  border-radius: 30px 0px 30px 0px;
+  padding: 10px 40px 40px 40px;
+}
+
+.container-list-todo-dark,
+.container-list-completed-dark {
+  border: 2px solid #f4f3f7;
+}
+
+.container-list-todo {
+  justify-self: end;
+}
+
+.container-list-completed {
+  justify-self: start;
+}
+
+.heading-secondary {
+  color: rgb(43, 56, 56);
+  text-align: center;
+  padding: 10px;
+  font-size: 2rem;
+}
+
+.heading-secondary-dark {
+  color: #abc4ff;
+}
+
+.btn {
+  font-weight: 600;
+  font-size: 20px;
+  border: none;
+  background-color: #fff;
+  cursor: pointer;
+  padding: 2px 5px;
+}
+
+.btn-dark {
+  background-color: #333;
+}
+
+.btn-item {
+  color: #023047;
+}
+
+.btn-item-dark {
+  color: #f7f8f8;
+}
+
+.form-add {
+  width: 100%;
+  display: flex;
+}
+
+.btn-add {
+  margin-left: 10px;
+  color: #023047;
+}
+
+.btn-add-dark {
+  color: #fff;
+}
+
+.input-add {
+  color: #1864ab;
+  font-size: 18px;
+  font-weight: 500;
+  width: 80%;
+  padding: 5px 10px;
+  border-radius: 5px;
+  border: 2px solid #5f3dc4;
+}
+
+.input-add-dark {
+  border: 2px solid #e5e2f0;
+  background-color: rgb(241, 221, 221);
+  color: #000;
+}
+
+.task-name {
+  font-weight: 500;
+  color: #1864ab;
+  font-size: 18px;
+  width: 70%;
+  overflow-wrap: break-word;
+}
+
+.task-name-dark {
+  color: #dad7cd;
+}
+
+.list-item::marker {
+  color: #1864ab;
+  font-weight: 500;
+}
+
+.list-item-dark::marker {
+  color: #e6edf3;
+}
+
+.container-list-item {
+  margin: 10px 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.btn-done,
+.btn-delete,
+.btn-todo {
+  font-size: 18px;
+}
+
+.btn-done {
+  color: #2b8a3e;
+}
+
+.btn-done-dark {
+  color: #69db7c;
+}
+
+.btn-delete {
+  color: #f03e3e;
+}
+
+.btn-delete-dark {
+  color: #f07167;
+}
+
+.btn-todo {
+  color: #5f3dc4;
+}
+
+.btn-todo-dark {
+  color: #9775fa;
+}
